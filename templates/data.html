@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: {{a}};
+        }
+    </style>
+</head>
+<body>
+    
+    {% if a=="python"%}
+    <h1 style="color:green">hello,,,{{a}}</h1>
+
+    {%else%}
+    <h1 style="color:rgb(224, 51, 28)">invalid</h1>
+
+    {%endif%}
+
+
+
+</body>
+</html>
