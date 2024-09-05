@@ -48,7 +48,9 @@ def login():
             return "User not found"
     
     return render_template("login_page.html")
-
+@app.route("/view")
+def view():
+    pass
 
 
 if __name__=="__main__":
