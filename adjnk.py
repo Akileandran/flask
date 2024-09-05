@@ -1,5 +1,6 @@
 from flask import Flask,render_template,request,redirect
-
+imoprt os
+#100
 import random 
 
 import sqlite3
